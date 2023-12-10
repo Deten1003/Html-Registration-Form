@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Poppins&display=swap" 
+       rel="stylesheet">
+           <link rel='stylesheet' href="Style .css">  
+        <title>Registration 
+            form
+        </title>
+    </head>
+    <body>
+        <h1>Profile Registration</h1>
+        <p>Enter your details below to signup to the Cool Kids Club</p>
+        
+        <form>
+              <div class="First ">
+<!-- First name-->
+    <label for='first name'>
+      First name: </label> <br>
+            <input type='text' 
+                   id='first name' 
+                   name='first name'
+                   placeholder='Enter your first name'>
+              </div> 
+<br> 
+<div class="Last">
+
+            <label for='last name'>Last name:</label>
+            <br><input type='text' 
+                   id='last name'
+                   name='last name'
+                   placeholder='Enter your last name'>
+              </div>
+<br>
+<div class="email ">
+
+            <label 
+                   for='email address'>Email address:</label>
+           <br> <input 
+                   type='email'
+                   id='email'
+                   name='email'
+                   placeholder='Enter your email address'>
+              </div>
+                   <br>
+                   <div class="birthday">
+<!-- Birthday -->
+<label for='birthday'>Birthday:</label>
+            <br><input type='date' 
+                   id='irthday'
+                   name='birthday'>
+              </div>
+            <br>
+            <div class="age">
+<!-- Age-->
+       <label for='age'>Age:</label>
+            <br><input type='number' 
+                   id='age'
+                   name='age'>
+              </div>
+            <br>
+            <div class="Gender">
+<!-- Gender  -->
+        <label for='gender'>Gender:</label>
+            </div>
+            <br>
+            <div class="option">
+            <label for='male'>Male</label>
+            <input type='radio'
+                   id='male'
+                   name='gender'>
+              
+            <br>
+            
+            <label for='female'>Female</label>
+            <input 
+                   type='radio'
+                   id='female'
+                   name='gender'
+                   >
+              </div>
+            <hr>
+            
+<!-- Interests -->
+<div class="interests">
+       <label for='interests'>Interests:</label>
+</div>
+            <br>
+            <div class="option1">
+              <input type='checkbox' 
+                   id='music'
+                   name='interests'
+                   value='music'>
+            <label for='music'>Music</label>
+      
+              
+            <br>
+           
+            <input type='checkbox' 
+            id='art'
+            name='interests'
+            value='art'>
+
+
+           <label for='art'>Art</label>
+       
+            
+            <br>
+              
+            <input type='checkbox' 
+                   id='science'
+                   name='interests'
+                   value='science'> 
+            
+            <label for='science'>Science</label>
+       </div>
+             
+            <br>
+<!-- Password -->
+
+<div class="password">
+            <label for='password'>Password:</label>
+            <br>
+            <input type='password'
+                   id='password'
+                   name='password'
+                   placeholder='Enter your password'>
+              </div>
+    <br>
+<!-- Bio-->
+<div class="bio">
+            <label for='bio'>Write a short bio about yourself:</label>
+            <br>
+           <textarea 
+                     name='bio'
+                     cols='40'
+                     rows='10'
+                     placeholder="Tell us about yourself"></textarea>
+              </div>
+            <br>
+<!-- Social media links-->
+<div class="media">
+           <label for='tiktok'>Enter a link to your TikTok:</label>
+           <br>
+            <input type='url' 
+                   id='tiktok'
+                   name='tiktok'
+                   placeholder='Enter a link to your tiktok'> 
+              </div>
+            <br>
+<!-- Privacy  Settings-->
+<div class="Privacy">
+           <label for='privacy'>Who do you want to veiw your profile? </label>
+          <br>
+         <select id='privacy'>
+             <option value="public">Public
+             </option>
+             <option value="private">Private</option>
+             <option value="only friends">Only friends</option>
+         </select>
+       </div>
+            <br>
+        </form>
+        <hr>
+<!--Terms and conditions-->
+       <div class="terms">
+<input type="checkbox"
+       id="terms" 
+    name="terms"
+       value='terms'>
+        <label for="terms">By clicking this you agree to the terms and conditions of this website</label>
+       </div> 
+       
+    <hr>
+        <div class="Register">
+        <input type="submit"
+               id='submit'
+               value='Register'>
+              </div>
+    </body>
+</html>
